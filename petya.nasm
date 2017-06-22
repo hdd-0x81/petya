@@ -2553,4 +2553,6 @@ int 21h
 mov ax, 0200h
 mov dx, 002ah
 int 21h
+mov ah, 00h
+int 16h
 int 20h
